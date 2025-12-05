@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Sis 💜</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Music -->
+    <audio id="bg-music" loop>
+        <source src="music/still_with_you.mp3" type="audio/mpeg">
+    </audio>
+
+    <!-- Intro Screen -->
+    <div id="intro" class="intro-screen">
+        <h1 class="intro-text">🎉 Happy Birthday 💜</h1>
+    </div>
+
+    <div class="container">
+
+        <!-- BTS Logo -->
+        <div class="bts-logo">
+            <img src="images/bts.png" alt="BTS Logo" />
+        </div>
+
+        <h1 class="title">Happy Birthday, Sis 💜</h1>
+        <p class="subtitle">Tap any icon to reveal a birthday note</p>
+
+        <div class="icons">
+            <button class="icon-btn" onclick="showWish(1)">💜</button>
+            <button class="icon-btn" onclick="showWish(2)">🎶</button>
+            <button class="icon-btn" onclick="showWish(3)">✨</button>
+        </div>
+
+        <div class="wish-box" id="wishBox">
+            <p id="wishText"></p>
+        </div>
+
+        <!-- BTS Member Slideshow -->
+        <div class="slideshow">
+            <img id="memberSlide" src="images/bts2.jpg" alt="BTS Slideshow">
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
