@@ -26,7 +26,7 @@ window.addEventListener("load", () => {
 const wishes = {
     1: "Happy Birthday, sis 💜 You make the world softer just by being in it.",
     2: "Another year, another glow. May this year treat you with kindness and joy.",
-    3: "You deserve love, peace, success — and I’m always here for you, no matter what."
+    3: "You deserve love, peace, success. And remeber I’m always here for you, no matter what."
 };
 
 /* --------------------------- */
